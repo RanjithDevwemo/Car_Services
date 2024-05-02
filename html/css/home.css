@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+/* .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.link{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    height: 8em;
+    width: 8em;
+}
+
+.car-banner{
+    background-image: url("../assets/car-banner.jpg");
+}
+   .caes-banner-2{
+    background-image: url("../assets/banner-img2.jpg");
+    background-repeat: no-repeat;
+   }
+    .caes-ban{
+    opacity: 0.8;
+    /* filter: drop-shadow(5px 5px 0 red) hue-rotate(180deg); */
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 100%;
+  background-size: cover;
+}
+
+.con-in-image{
+    color: white;
+    max-width: 50%;
+    font-size: 5em;
+    display:flex ;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-con{
+    width: 100%;
+    /* padding: 1em; */
+    /* border: 2px solid black; */
+}
+.img-card{
+    /* border: 2px solid black; */
+    padding: 0.5em;
+    margin: 1.5em;
+    gap: 1em;
+   height: 25%;
+   width: 20em;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.car-name{
+    color: red;
+    font-size: 1em;
+    font-weight: bolder;
+}
+/* flex */
+.img-con {
+    /* padding: 1em; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* services */
+.icon{
+  font-size: 10rem;
+
+}
+.icon-2{
+    font-size: 7rem;
+}
+.arrow-icon{
+    font-size: 1rem;
+}
+.icon-box-2{
+    margin: 1rem;
+    padding:1em 6em 1em 6em;
+    max-width: 10rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.i-content{
+    font-weight: bolder;
+}
+.icon-box{
+    margin: 1rem;
+    padding:2em 6em 2em 6em;
+    max-width: 10rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* carousels */
+.caro{
+    height: 20em;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caro-h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.caro-img{
+    height: 2.5em;
+    width: 2.5em;
+    /* padding: 0 1em 0 1em; */
+}
+.testi-name{
+    padding: 0.5em;
+}
+
+/* footer */
+.foo-con{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.foot{
+    background-color: black;
+}
+.foot-logo{
+    height: 3rem;
+    width: 7rem;
+}
+.foot-logo.com , .foot-brand , .foot-com{
+padding: 1em;
+}
